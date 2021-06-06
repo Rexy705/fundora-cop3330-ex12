@@ -25,7 +25,7 @@ public class ex12 {
         double r = rot_percent / 100;
         double simple_interest = P * (1 + (r * t));
 
-        System.out.printf("After %s years at %s%%, the investment will be worth $%.2f.",
+        System.out.printf("After %s years at %s%%, the investment will be worth $%.2f.\n",
                           years, rot, simple_interest);
     }
 }
